@@ -1,110 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b0908">
-<title>About Us – CLPLAY Game</title>
-<meta name="description" content="Learn about CLPLAY Game, a lightweight mobile gaming app built for Indian players.">
-<meta name="robots" content="index,follow">
-<link rel="icon" href="logo.png">
-<link rel="canonical" href="https://clplaycom.com/about-us.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clplay</title>
 <style>
-:root{--bg:#0b0908;--panel:#171011;--gold:#e5b94c;--cream:#f1e5c8;--muted:#c8bda7;--line:#44321c;--orange:#ed8b36}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.7}
-header{position:sticky;top:0;z-index:10;background:#0b0908ed;border-bottom:1px solid var(--line);padding:14px 4.2%;display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:25px;font-weight:800;text-decoration:none}
-.logo{width:48px;height:48px;border:2px solid var(--gold);border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,#4d170e,#150b08);font-size:18px;color:#ffe28a;box-shadow:inset 0 0 0 3px #7b4c1d}
-nav a{color:var(--gold);text-decoration:none;margin-left:20px;font-weight:700}.menu{display:none;background:transparent;color:var(--gold);border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:22px}
-main{max-width:1000px;margin:auto;padding:34px 22px 90px}.eyebrow{display:inline-block;border:1px solid var(--line);border-radius:30px;padding:5px 14px;color:var(--gold);background:#1c1510;font-size:14px}
-h1{font-size:clamp(32px,5vw,48px);line-height:1.2;margin:24px 0 18px;color:var(--cream)}h2{font-size:clamp(25px,4vw,34px);line-height:1.25;color:var(--gold);margin:0 0 18px}h3{color:var(--gold);margin:0 0 10px;font-size:22px}p,li{font-size:18px;color:var(--muted)}.lead{font-size:20px;max-width:780px}
-.actions{display:grid;gap:12px;margin:26px 0}.action{display:block;text-align:center;text-decoration:none;padding:15px 18px;border-radius:16px;border:1px solid #715622;color:var(--gold);font-weight:800;font-size:18px;background:#211a10}.action.primary{color:#170d08;background:linear-gradient(110deg,#f3c64e,#ed8737);border:0}
-.note{padding:16px 18px;border:1px solid var(--line);border-radius:13px;background:#171011;color:var(--muted);margin:22px 0}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0 48px}.card{background:var(--panel);border:1px solid #38271d;border-radius:16px;padding:22px}.card p{margin-bottom:0}
-table{width:100%;border-collapse:collapse;margin:22px 0 45px;font-size:17px}td{padding:13px 15px;border-bottom:1px solid #35261b}td:first-child{color:var(--gold);font-weight:700;background:#20190f;width:42%}
-section{margin:48px 0}.faq details{padding:16px 0;border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;color:var(--gold);font-weight:700;font-size:18px}.faq details p{margin-bottom:0}
-footer{border-top:1px solid var(--line);padding:28px 22px;text-align:center;color:var(--muted);font-size:14px}footer a{color:var(--gold);margin:0 8px}
-@media(max-width:650px){header{padding:12px 18px}.menu{display:block}nav{display:none;position:absolute;top:74px;left:0;right:0;background:#100c0a;padding:16px 22px;border-bottom:1px solid var(--line)}nav.open{display:grid;gap:12px}nav a{margin:0}main{padding:28px 18px 70px}.grid{grid-template-columns:1fr}.lead{font-size:18px}p,li{font-size:17px}}
-
-.ready-panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;margin:48px 0}
-.ready-panel p{font-size:19px}
-.ready-panel .actions{margin-bottom:0}
-footer .footer-brand{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--gold);font-size:24px;font-weight:800;margin-bottom:12px}
-footer .footer-description{max-width:760px;margin:0 auto 22px}
-footer .footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 18px;margin:16px 0}
-footer .footer-links a{margin:0}
-@media(max-width:650px){.ready-panel{padding:22px 18px}.ready-panel p{font-size:17px}}
-
-
-img.logo{display:block;width:48px;height:48px;border:0;background:none;box-shadow:none;border-radius:12px;object-fit:contain}
-.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0 48px}
-.gallery figure{margin:0;background:var(--panel);border:1px solid #38271d;border-radius:16px;overflow:hidden}
-.gallery img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
-.gallery figcaption{padding:12px 16px;color:var(--gold);font-weight:700;font-size:16px}
-@media(max-width:650px){.gallery{grid-template-columns:1fr}}
+:root{--bg:#0d0a0a;--panel:#140f10;--text:#e8e2dc;--muted:#b9b0a8;--gold:#f2b632;--line:#2a2220;--b1:#f2b632;--b2:#d9822b;--bt:#1a1008;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Roboto,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.55}
+header{display:flex;align-items:center;gap:10px;padding:12px 18px;border-bottom:1px solid var(--line)}
+.logo{width:40px;height:40px;border-radius:8px;background:linear-gradient(135deg,var(--b1),var(--b2));color:var(--bt);display:grid;place-items:center;font-weight:800;font-size:20px}
+header b{font-size:18px}
+nav.top{margin-left:auto;display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+nav a,footer a{cursor:pointer}
+nav.top a{font-size:13px;color:var(--muted);text-decoration:none}
+nav.top a.on{color:var(--gold)}
+main{padding:24px 18px 40px;max-width:760px;margin:0 auto}
+section{display:none}
+section.on{display:block}
+h1{font-size:28px;line-height:1.2;margin:0 0 10px}
+h2{color:var(--gold);font-size:21px;margin:30px 0 8px}
+p{margin:0 0 12px;color:var(--muted)}
+.lead{color:var(--text)}
+ul{padding-left:20px;margin:0}
+li{margin-bottom:10px;color:var(--muted)}
+li b{color:var(--gold)}
+a{color:var(--gold)}
+.cta{display:inline-block;margin-top:8px;border-radius:8px;padding:12px 20px;font-weight:700;background:linear-gradient(135deg,var(--b1),var(--b2));color:var(--bt);text-decoration:none}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px}
+.card b{color:var(--text);display:block;margin-bottom:4px}
+.card p{margin:0}
+footer{background:var(--panel);border-top:1px solid var(--line);padding:22px 18px 90px}
+.row{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between;max-width:760px;margin:0 auto}
+footer p{font-size:14px;max-width:320px}
+footer nav a{display:block;font-size:14px;margin-bottom:8px;color:var(--text);text-decoration:none}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:8px 14px calc(8px + env(safe-area-inset-bottom,0px))}
+.bar small{font-size:11px;color:var(--muted)}
+.bar .btn{border-radius:8px;padding:10px 16px;font-weight:700;font-size:14px;text-decoration:none;background:linear-gradient(135deg,var(--b1),var(--b2));color:var(--bt)}
 </style>
 </head>
 <body>
-<header>
-  <a class="brand" href="index.html" aria-label="CLPLAY home"><img class="logo" src="logo.png" alt="CLPLAY logo" width="48" height="48"><span>CLPLAY</span></a>
-  <button class="menu" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
-  <nav>
-    <a href="index.html">Home</a><a href="about-us.html">About Us</a><a href="contact-us.html">Contact Us</a><a href="disclaimer.html">Disclaimer</a>
-  </nav>
-</header>
+<header><div class="logo">C</div><b>Clplay</b>
+<nav class="top"><a data-v="home">Home</a><a data-v="about">About</a><a data-v="faqs">FAQs</a></nav></header>
 <main>
-  <span class="eyebrow">ABOUT CLPLAY</span>
-  <h1>About Us</h1>
-  <p class="lead">CLPLAY Game is a mobile-friendly gaming hub built for Indian players who want a fast, lightweight and easy-to-use app experience.</p>
-  <div class="actions"><a class="action primary" href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener noreferrer">Download CLPLAY App</a></div>
-  <section>
-    <h2>Who We Are</h2>
-    <p>CLPLAY is a mobile gaming platform delivered as a lightweight Android APK of about 39.21 MB. We bring slots, fishing arcade, card games, live tables and quick skill games together in one app, with an INR-native wallet and UPI-based deposits and withdrawals.</p>
-    <p>This website provides information, features and FAQs about the CLPLAY app so that players can understand what they are downloading before they install it.</p>
-  </section>
-  <section>
-    <h2>What We Stand For</h2>
-    <div class="grid">
-      <article class="card"><h3>Lightweight &amp; Fast</h3><p>Built to install quickly and run smoothly on mid-range Android phones, including Android 5.0 and above.</p></article>
-      <article class="card"><h3>Rupee-Native Wallet</h3><p>Every balance is shown in INR, with a clear split between real-money balance and bonus balance.</p></article>
-      <article class="card"><h3>Secure Access</h3><p>Logins, deposits and withdrawals move through encrypted channels to help keep your account protected.</p></article>
-      <article class="card"><h3>Player Support</h3><p>Help is available from inside the app for registration, KYC, deposits and withdrawals.</p></article>
-    </div>
-  </section>
-  <section>
-    <h2>App at a Glance</h2>
-    <table>
-      <tr><td>App name</td><td>CLPLAY</td></tr>
-      <tr><td>Latest version</td><td>1.0.4 (2026 update)</td></tr>
-      <tr><td>File size</td><td>~39.21 MB</td></tr>
-      <tr><td>Platform</td><td>Android 5.0 and above</td></tr>
-      <tr><td>Region</td><td>India (INR)</td></tr>
-    </table>
-  </section>
-  <section>
-    <h2>Our Commitment</h2>
-    <p>We encourage responsible play. CLPLAY is for adults aged 18 and above only. Please read our <a href="disclaimer.html" style="color:var(--gold)">Disclaimer</a> and play within your limits.</p>
-  </section>
-  <section class="ready-panel">
-    <h2>Ready to play?</h2>
-    <p>Grab the latest CLPLAY APK, finish a 30-second signup, and your welcome bonus is live.</p>
-    <div class="actions">
-      <a class="action primary" href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener noreferrer">Download CLPLAY App</a>
-      <a class="action" href="index.html">Back to Home</a>
-    </div>
-  </section>
+
+<section id="home">
+<h1>Clplay – simple games, instant fun</h1>
+<p class="lead">A light, fast casual gaming app for your phone. Free to play, no deposits, no wallet.</p>
+<h2>Why Clplay</h2>
+<ul>
+<li><b>Light app.</b> Small download that runs smoothly even on older phones.</li>
+<li><b>Quick to start.</b> Open the app and play within seconds.</li>
+<li><b>No pressure.</b> Play when you like; your progress waits for you.</li>
+<li><b>New games.</b> Fresh games and updates on a regular schedule.</li>
+</ul>
+<p style="margin-top:18px"><a class="cta" href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener sponsored">Download Clplay</a></p>
+</section>
+
+<section id="about">
+<h1>About Us – the people behind Clplay</h1>
+<p class="lead">Clplay is built by a small team that loves simple, fun mobile games you can pick up anytime.</p>
+<h2>Our mission</h2>
+<p>We want Clplay to be the game app you open just to relax and enjoy yourself: a clean game library, no confusing pop-ups, and a build that respects your phone’s storage and battery.</p>
+<h2>What we believe</h2>
+<ul>
+<li><b>Fun comes first.</b> Every game should be enjoyable within the first minute.</li>
+<li><b>Smaller is better.</b> A light app that runs smoothly beats a heavy one every time.</li>
+<li><b>Speed is a feature.</b> Each screen is tuned to load fast.</li>
+<li><b>Players over algorithms.</b> We don’t push long sessions. Take a break whenever you want.</li>
+</ul>
+<h2>How we work</h2>
+<p>Updates ship on a clear schedule. Every build has a changelog, new games arrive regularly, and bug fixes go out as soon as they are ready.</p>
+<h2>Play responsibly</h2>
+<p>Clplay is made for entertainment. If gameplay ever stops being fun, step away – the app is never an obligation.</p>
+<h2>Get in touch</h2>
+<p>For help, use the in-app support button. For partnership or media questions, write to <a href="mailto:support@clplay.example">support@clplay.example</a>.</p>
+<p>New here? Start with the <a href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener sponsored">Clplay download</a>, or read the <a data-v="faqs">FAQ page</a>.</p>
+</section>
+
+<section id="faqs">
+<h1>FAQs</h1>
+<div class="card"><b>Is Clplay free?</b><p>Yes. Clplay is free to play. You don’t need to deposit any money.</p></div>
+<div class="card"><b>How do I download it?</b><p>Tap the Download Clplay button on this site and follow the steps on the next page.</p></div>
+<div class="card"><b>Does Clplay work on older phones?</b><p>It is designed to be light, so it should run on most modern Android phones.</p></div>
+<div class="card"><b>I found a bug. What do I do?</b><p>Use the in-app support button and describe what happened. Screenshots help.</p></div>
+<div class="card"><b>How often are new games added?</b><p>We aim to add new games and updates on a regular schedule. Check the changelog in each release.</p></div>
+</section>
+
+<section id="privacy">
+<h1>Privacy Policy</h1>
+<p class="lead">This is a short summary of how Clplay handles information. Please review and edit it to match what your app actually does.</p>
+<h2>What we collect</h2>
+<p>Basic technical information such as device type, app version and crash reports, used to keep the app running well. If you contact support, we keep the details you send us so we can help.</p>
+<h2>How we use it</h2>
+<p>To improve performance, fix bugs and answer support requests. We do not sell personal information.</p>
+<h2>Third parties</h2>
+<p>Links on this site may open other websites or services. Their privacy practices are their own, so please read them.</p>
+<h2>Contact</h2>
+<p>Questions about privacy? Write to <a href="mailto:support@clplay.example">support@clplay.example</a>.</p>
+</section>
+
+<section id="disclaimer">
+<h1>Disclaimer</h1>
+<p class="lead">Clplay is intended for entertainment only.</p>
+<p>Games are provided as is, without any guarantee of availability or of particular results. No purchase or deposit is needed to play. Information on this site may change without notice.</p>
+<p>This site may contain links to other websites, including referral links. We are not responsible for the content of third-party sites.</p>
+<p>Please play in moderation and take regular breaks.</p>
+</section>
+
 </main>
 <footer>
-  <div class="footer-brand"><img class="logo" src="logo.png" alt="CLPLAY logo" width="48" height="48"><span>CLPLAY</span></div>
-  <p class="footer-description">CLPLAY Game is a mobile-first online gaming platform built for Indian players. Fast access, smooth gameplay, secure wallet, and quick UPI withdrawals - everything in one lightweight Android APK.</p>
-  <h3>SITE</h3>
-  <div class="footer-links">
-    <a href="index.html">Home</a><a href="about-us.html">About Us</a><a href="contact-us.html">Contact Us</a><a href="disclaimer.html">Disclaimer</a>
-  </div>
-  <h3>SUPPORT</h3>
-  <p>Email support@clplaycom.com</p>
-  <p>18+ only. Real-cash gaming involves financial risk. Please play responsibly.</p>
-  <p><a href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener noreferrer">CLPLAY Referral / Register</a></p>
+<div class="row">
+<div><div style="display:flex;align-items:center;gap:8px;margin-bottom:8px"><div class="logo" style="width:32px;height:32px;font-size:16px">C</div><b>Clplay</b></div>
+<p>Clplay is a mobile-first casual gaming app. Fast access, smooth gameplay, and a lightweight install.</p></div>
+<nav><b style="color:var(--gold);font-size:13px">SITE</b><br><br><a data-v="about">About Us</a><a data-v="privacy">Privacy Policy</a><a data-v="disclaimer">Disclaimer</a><a data-v="faqs">FAQs</a></nav>
+</div>
 </footer>
+<div class="bar"><small>NEW GAMES EVERY MONTH<br>Free to play · 24×7 support</small><a class="btn" href="https://clplay.win?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="noopener sponsored">Download Clplay</a></div>
+<script>
+var V=["home","about","faqs","privacy","disclaimer"];
+function show(v){if(V.indexOf(v)<0)v="home";
+document.querySelectorAll("section").forEach(function(s){s.classList.toggle("on",s.id===v)});
+document.querySelectorAll("nav.top a").forEach(function(a){a.classList.toggle("on",a.getAttribute("data-v")===v)});
+window.scrollTo(0,0)}
+document.addEventListener("click",function(e){var a=e.target.closest("[data-v]");if(a){e.preventDefault();show(a.getAttribute("data-v"))}});
+show((location.hash||"").replace("#",""));
+</script>
 </body>
 </html>
