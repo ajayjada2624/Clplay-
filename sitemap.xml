@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
   <url>
     <loc>https://clplaycom.com/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
   </url>
+
+  <!-- About Us Page -->
   <url>
     <loc>https://clplaycom.com/about-us.html</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
+
+  <!-- Contact Us Page -->
   <url>
     <loc>https://clplaycom.com/contact-us.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.80</priority>
   </url>
+
+  <!-- Disclaimer Page -->
   <url>
     <loc>https://clplaycom.com/disclaimer.html</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
+
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://clplaycom.com/privacy-policy.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
 </urlset>
