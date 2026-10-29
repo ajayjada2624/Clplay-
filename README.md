@@ -1,24 +1,45 @@
-CLPLAY Game
-CLPLAY Game is a mobile-friendly gaming hub website for Indian players. It shares information, features and FAQs about the CLPLAY Android app (v1.0.4, ~39.21 MB, Android 5.0+).
-Website: https://clplaycom.com/
-Pages
-File
-Description
-index.html
-Home page with features, game categories, overview and FAQs
-about-us.html
-About Us
-contact-us.html
-Contact Us
-disclaimer.html
-Disclaimer
-sitemap.xml
-Sitemap for search engines
-robots.txt
-Crawler rules and sitemap link
-Assets
-Keep these in the same folder as index.html: logo.png, clplay Game Photos 1.jpg, clplay Game Photos 2.jpg, clplay Game Photos 3.jpg
-Deploy
-Upload all files to the root folder of your hosting (or GitHub Pages). Open https://clplaycom.com/sitemap.xml to check the sitemap works, then submit it in Google Search Console.
-Disclaimer
-18+ only. Real-cash gaming involves financial risk. Please play responsibly and follow the laws of your state.
+# CLPLAY Game APK Download (Official 2026 Edition)
+
+Welcome to the official repository guide for the **CLPLAY Game APK** (v1.0.4) for Android devices.
+
+[![Download CLPLAY APK](https://img.shields.io/badge/Download-CLPLAY%20APK%20(39%20MB)-orange?style=for-the-badge&logo=android)](https://clplaycom.com/)
+
+---
+
+## 📌 About CLPLAY Game
+**[CLPLAY Game](https://clplaycom.com/)** is a lightweight real-cash mobile gaming application tailored for Indian smartphone users. It offers seamless access to popular card games, multiplier crash rounds, and arcade games with instant INR wallet settlement via UPI.
+
+* **Official Portal:** [clplaycom.com](https://clplaycom.com/)
+* **App Version:** v1.0.4 (2026 Release)
+* **File Size:** ~39.21 MB
+* **OS Support:** Android 5.0 and above
+* **Payment Support:** PhonePe, Google Pay, Paytm & IMPS Bank Transfer
+
+---
+
+## 🚀 Key Features
+
+* **Instant Payouts:** Fast UPI withdrawals credited within 5 to 30 minutes directly into verified Indian bank accounts.
+* **Low Hardware Footprint:** Ultra-lightweight APK optimized to run without lag on 2 GB RAM smartphones.
+* **Exciting Game Categories:** Includes Teen Patti, Andar Bahar, Aviator multiplier matches, and slot games.
+* **Starter Bonus:** Get an instant welcome wallet bonus on mobile registration using the official invite code: `RSF2W5N`.
+
+---
+
+## 📲 How to Download & Install CLPLAY APK
+
+1. Visit the verified download page at **[clplaycom.com](https://clplaycom.com/)**.
+2. Tap the **Download CLPLAY App** button to save the package file.
+3. Open **Settings → Security** on your Android device and allow **Install Unknown Apps** for your browser.
+4. Locate the APK in your `Downloads` folder, tap **Install**, and launch the game.
+5. Register with your 10-digit mobile number, verify the OTP, and start exploring.
+
+---
+
+## 🔗 Official Links & Resources
+
+* Official Website: [https://clplaycom.com/](https://clplaycom.com/)
+* Support Desk: `support@clplaycom.com`
+
+---
+*Disclaimer: Real-cash gaming involves financial risk. Only 18+ users permitted. Please play responsibly.*
