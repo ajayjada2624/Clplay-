@@ -4,41 +4,70 @@
   <!-- Home Page -->
   <url>
     <loc>https://clplaycom.com/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+  </url>
+
+  <!-- 4 New Guide Pages -->
+  <url>
+    <loc>https://clplaycom.com/clplay-upi-withdrawal-guide/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://clplaycom.com/clplay-apk-download-install-guide/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://clplaycom.com/clplay-make-money-beginner-tips/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://clplaycom.com/clplay-login-otp-problem-fix/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- About Us Page -->
   <url>
     <loc>https://clplaycom.com/about-us.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
 
   <!-- Contact Us Page -->
   <url>
     <loc>https://clplaycom.com/contact-us.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.70</priority>
   </url>
 
   <!-- Disclaimer Page -->
   <url>
     <loc>https://clplaycom.com/disclaimer.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.60</priority>
   </url>
 
   <!-- Privacy Policy Page -->
   <url>
     <loc>https://clplaycom.com/privacy-policy.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.60</priority>
   </url>
 
 </urlset>
