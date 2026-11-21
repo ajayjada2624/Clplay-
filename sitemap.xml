@@ -4,9 +4,17 @@
   <!-- Home Page -->
   <url>
     <loc>https://clplaycom.com/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+  </url>
+
+  <!-- New Games Page -->
+  <url>
+    <loc>https://clplaycom.com/new-games.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
 
   <!-- 4 New Guide Pages -->
@@ -69,10 +77,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
-<url>
+
+  <url>
     <loc>https://clplaycom.com/clplay-refer-and-earn-bonus-guide/</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
+
 </urlset>
