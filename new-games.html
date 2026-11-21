@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Games - Download Top Gaming APKs</title>
+  <meta name="description" content="Download new real-cash gaming APKs including IS7, SS7, EK5, RajAce, IE777, EK1, F8.GAME, 3T3, IN7, AU6, and 360INR." />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ebe9d8;
+      color: #1f1f1f;
+      min-height: 100vh;
+      padding: 14px 12px 95px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    /* Top Header Bar */
+    .top-bar {
+      background-color: #f7f6ee;
+      border: 1px solid #d5d2c1;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .top-bar h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #222222;
+    }
+
+    .home-btn {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1363c6;
+      text-decoration: none;
+    }
+
+    /* 2-Column Grid */
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px 12px;
+    }
+
+    .game-item {
+      background-color: transparent;
+      border-top: 1px solid #9e9c8e;
+      padding-top: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Square App Icon Box */
+    .game-logo-box {
+      width: 136px;
+      height: 136px;
+      border-radius: 18px;
+      background: radial-gradient(circle at top, #3b080c 0%, #120406 80%, #090203 100%);
+      border: 2px solid #d4a644;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .game-logo-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    .logo-main {
+      font-size: 32px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      line-height: 1.05;
+      background: linear-gradient(180deg, #ffdf73 0%, #e09b2d 55%, #b86e14 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.8));
+    }
+
+    .logo-main.red-style {
+      background: linear-gradient(180deg, #ff4b4b 0%, #d41212 65%, #8a0404 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-sub {
+      margin-top: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #f5d27a;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+
+    /* Game Title */
+    .game-name {
+      font-size: 17px;
+      font-weight: 700;
+      color: #181818;
+      margin-bottom: 6px;
+    }
+
+    /* 4.5 Golden-Orange Stars */
+    .star-rating {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #f2a93b;
+    }
+
+    .half-star {
+      position: relative;
+      display: inline-block;
+      color: #d6d3c4;
+    }
+
+    .half-star::before {
+      content: "★";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 55%;
+      overflow: hidden;
+      color: #f2a93b;
+    }
+
+    /* Embossed Light-Grey Download Button */
+    .download-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 92%;
+      max-width: 175px;
+      padding: 9px 14px;
+      background: linear-gradient(180deg, #eae8dc 0%, #dcd9ca 100%);
+      border: 1px solid #c5c2b2;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .download-pill span {
+      color: #1363c6;
+      font-size: 17px;
+      font-weight: 700;
+      border-bottom: 2px solid #1363c6;
+      line-height: 1.15;
+    }
+
+    .download-pill:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+    }
+
+    /* Fixed Bottom Red Button */
+    .bottom-bar {
+      position: fixed;
+      bottom: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 24px);
+      max-width: 460px;
+      z-index: 99;
+      display: flex;
+      justify-content: center;
+    }
+
+    .bottom-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 13px 28px;
+      background-color: #a92822;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 999px;
+      box-shadow: 0 6px 16px rgba(169, 40, 34, 0.35);
+    }
+
+    @media (max-width: 380px) {
+      .game-logo-box {
+        width: 118px;
+        height: 118px;
+      }
+      .logo-main {
+        font-size: 27px;
+      }
+      .game-name {
+        font-size: 15.5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="top-bar">
+      <h1>New Games</h1>
+      <a href="index.html" class="home-btn">← Home</a>
+    </header>
+
+    <main class="games-grid" id="newGamesGrid"></main>
+  </div>
+
+  <!-- Fixed Bottom Button -->
+  <div class="bottom-bar">
+    <a href="https://clplaycom.com/" class="bottom-cta" rel="nofollow noopener">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M5 20h14v-2H5v2zm7-18v11.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41L11 13.17V2h1z"/>
+      </svg>
+      <span>Download Now</span>
+    </a>
+  </div>
+
+  <script>
+    const newGames = [
+      // 1. IS7 Game
+      {
+        name: "IS7 Game",
+        link: "https://share.is7v77.com/share/agent/AA62T7LZ?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=",
+        logoText: "IS7",
+        subText: "IS7.COM",
+        style: "red-style",
+        img: ""
+      },
+      // 2. SS7 Game
+      {
+        name: "SS7 Game",
+        link: "https://invite.ss7gameg.com/?code=450YQES",
+        logoText: "SS7",
+        subText: "SS7 GAME",
+        style: "",
+        img: ""
+      },
+      // 3. EK5 Game
+      {
+        name: "EK5 Game",
+        link: "https://ek5win.com?inviteCode=M96JM3N&from=app",
+        logoText: "EK",
+        subText: "EK5.COM",
+        style: "",
+        img: ""
+      },
+      // 4. RajAce Game
+      {
+        name: "RajAce Game",
+        link: "https://share.rajace9.com/share/agent/ADWWBUM7?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=",
+        logoText: "R",
+        subText: "RAJACE",
+        style: "red-style",
+        img: ""
+      },
+      // 5. IE777 Game
+      {
+        name: "IE777 Game",
+        link: "https://share.ie7gaem1.com/share/agent/AA6TUV1V?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=",
+        logoText: "IE",
+        subText: "IE777",
+        style: "red-style",
+        img: ""
+      },
+      // 6. EK1 Game
+      {
+        name: "EK1 Game",
+        link: "https://share.280jjh.com/share/agent/AF63FA0Q?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=",
+        logoText: "EK1",
+        subText: "EK1 GAME",
+        style: "red-style",
+        img: ""
+      },
+      // 7. F8.GAME
+      {
+        name: "F8.GAME",
+        link: "https://share-ijtvvfn3ct.f8game.online/share/agent/AS6TPS06?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=",
+        logoText: "F8",
+        subText: "F8.GAME",
+        style: "red-style",
+        img: ""
+      },
+      // 8. 3T3 Game
+      {
+        name: "3T3 Game",
+        link: "https://3t3vip.com?inviteCode=CDTXHUN&from=app",
+        logoText: "3T",
+        subText: "3T3.COM",
+        style: "",
+        img: ""
+      },
+      // 9. IN7 Game
+      {
+        name: "IN7 Game",
+        link: "https://share.in7v5.com/share/agent/AA6JXC91?data=eyJtIjoyLCJsYW5nIjoiaGkiLCJpZCI6MX0=",
+        logoText: "IN7",
+        subText: "IN7 GAME",
+        style: "red-style",
+        img: ""
+      },
+      // 10. AU6 Game
+      {
+        name: "AU6 Game",
+        link: "https://au6vip.com?inviteCode=2Y632QN&from=app",
+        logoText: "Au",
+        subText: "AU6.COM",
+        style: "",
+        img: ""
+      },
+      // 11. 360INR Game
+      {
+        name: "360INR Game",
+        link: "https://360inrteam.com/?code=V68LJIS",
+        logoText: "360",
+        subText: "360INR",
+        style: "red-style",
+        img: ""
+      }
+    ];
+
+    const grid = document.getElementById("newGamesGrid");
+
+    grid.innerHTML = newGames.map(game => `
+      <div class="game-item">
+        <div class="game-logo-box">
+          ${game.img
+            ? `<img src="${game.img}" alt="${game.name}">`
+            : `<div class="logo-main ${game.style}">${game.logoText}</div>
+               <div class="logo-sub">${game.subText}</div>`
+          }
+        </div>
+        <div class="game-name">${game.name}</div>
+        <div class="star-rating" aria-label="4.5 out of 5 stars">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star">★</span>
+        </div>
+        <a href="${game.link}" target="_blank" class="download-pill" rel="nofollow noopener">
+          <span>Download</span>
+        </a>
+      </div>
+    `).join("");
+  </script>
+
+</body>
+</html>
