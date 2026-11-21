@@ -259,7 +259,7 @@
         logoText: "IS7",
         subText: "IS7.COM",
         style: "red-style",
-        img: ""
+        img: "is7.png"
       },
       // 2. SS7 Game
       {
@@ -268,7 +268,7 @@
         logoText: "SS7",
         subText: "SS7 GAME",
         style: "",
-        img: ""
+        img: "ss7.png"
       },
       // 3. EK5 Game
       {
@@ -277,7 +277,7 @@
         logoText: "EK",
         subText: "EK5.COM",
         style: "",
-        img: ""
+        img: "ek5.png"
       },
       // 4. RajAce Game
       {
@@ -286,7 +286,7 @@
         logoText: "R",
         subText: "RAJACE",
         style: "red-style",
-        img: ""
+        img: "rajace.png"
       },
       // 5. IE777 Game
       {
@@ -295,7 +295,7 @@
         logoText: "IE",
         subText: "IE777",
         style: "red-style",
-        img: ""
+        img: "ie777.png"
       },
       // 6. EK1 Game
       {
@@ -304,7 +304,7 @@
         logoText: "EK1",
         subText: "EK1 GAME",
         style: "red-style",
-        img: ""
+        img: "ek1.png"
       },
       // 7. F8.GAME
       {
@@ -313,7 +313,7 @@
         logoText: "F8",
         subText: "F8.GAME",
         style: "red-style",
-        img: ""
+        img: "f8.png"
       },
       // 8. 3T3 Game
       {
@@ -322,7 +322,7 @@
         logoText: "3T",
         subText: "3T3.COM",
         style: "",
-        img: ""
+        img: "3t3.png"
       },
       // 9. IN7 Game
       {
@@ -331,7 +331,7 @@
         logoText: "IN7",
         subText: "IN7 GAME",
         style: "red-style",
-        img: ""
+        img: "in7.png"
       },
       // 10. AU6 Game
       {
@@ -340,7 +340,7 @@
         logoText: "Au",
         subText: "AU6.COM",
         style: "",
-        img: ""
+        img: "au6.png"
       },
       // 11. 360INR Game
       {
@@ -349,7 +349,7 @@
         logoText: "360",
         subText: "360INR",
         style: "red-style",
-        img: ""
+        img: "360inr.png"
       }
     ];
 
@@ -359,7 +359,7 @@
       <div class="game-item">
         <div class="game-logo-box">
           ${game.img
-            ? `<img src="${game.img}" alt="${game.name}">`
+            ? `<img src="${game.img}" alt="${game.name}" onerror="this.outerHTML='<div class=\\'logo-main ${game.style}\\'>${game.logoText}</div><div class=\\'logo-sub\\'>${game.subText}</div>';">`
             : `<div class="logo-main ${game.style}">${game.logoText}</div>
                <div class="logo-sub">${game.subText}</div>`
           }
